@@ -7,7 +7,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Mrlyjoutlook/generator-react-app-cli.git"
+    "url": "git@github.com:Mrlyjoutlook/generator-koa-cli.git"
   },
-  "license": "MIT"
+  "author": "mrlyj <mr.lyj@outlook.com>",
+  "license": "MIT",
+  "keywords": [
+    "boilerplates",
+    "node",
+    "cli",
+    "koa",
+    "async/await"
+  ],
+  "bugs": {
+    "url": "https://github.com/Mrlyjoutlook/generator-koa-cli/issues"
+  },
+  "homepage": "https://github.com/Mrlyjoutlook/generator-koa-cli",
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "dependencies": {
+    "chalk": "^2.3.1",
+    "commander": "^2.14.1",
+    "cross-spawn": "^6.0.4",
+    "fs-extra": "^5.0.0",
+    "vinyl-fs": "^3.0.2"
+  }
 }
