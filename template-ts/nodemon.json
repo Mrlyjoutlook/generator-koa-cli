@@ -1,0 +1,11 @@
+{
+  "verbose": false,
+  "watch": "./app",
+  "ext": "js",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ignore": [
+    "*.js.map"
+  ]
+}

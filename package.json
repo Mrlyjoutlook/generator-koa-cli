@@ -1,0 +1,13 @@
+{
+  "name": "generator-koa-cli",
+  "version": "0.1.0",
+  "description": "a cli for creating koa project projects work.",
+  "bin": {
+    "far": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Mrlyjoutlook/generator-react-app-cli.git"
+  },
+  "license": "MIT"
+}
