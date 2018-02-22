@@ -49,7 +49,7 @@ program
             const dest = path.join(process.cwd(), name);
             const cwd = path.join(__dirname, '../template-ts/');
             mkdirpSync(dest);
-            vfs.src(['bin', 'src', 'static', '.editorconfig', '.gitignore', 'nodemon.json', 'package.json', 'tsconfig.json', 'tslint.json'], { cwd: cwd, cwdbase: true, dot: true })
+            vfs.src(['bin/**/*', 'src/**/*', 'static/**/*', '.editorconfig', '.gitignore', 'nodemon.json', 'package.json', 'tsconfig.json', 'tslint.json'], { cwd: cwd, cwdbase: true, dot: true })
                 .pipe(vfs.dest(dest))
                 .on('end', function () {
                     console.log(chalk.green('far: building ok'));
