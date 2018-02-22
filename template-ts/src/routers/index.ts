@@ -1,8 +1,8 @@
 import * as Router from 'koa-router';
 
-const router = new Router();
-
 const home = require('./home');
+
+const router = new Router();
 
 router.use('/', home.routes(), home.allowedMethods);
 

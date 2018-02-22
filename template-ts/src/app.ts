@@ -57,7 +57,7 @@ class App {
     // 静态资源
     this.app.use(resource(path.join( __dirname,  '../static')));
     // 加载模板引擎
-    this.app.use(views(path.join(__dirname, './views'), {
+    this.app.use(views(path.join(__dirname, '../src/views'), {
       extension: 'ejs'
     }));
     // 请求处理

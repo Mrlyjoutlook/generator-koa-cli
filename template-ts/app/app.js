@@ -37,7 +37,7 @@ class App {
     }
     load() {
         this.app.use(resource(path.join(__dirname, '../static')));
-        this.app.use(views(path.join(__dirname, './views'), {
+        this.app.use(views(path.join(__dirname, '../src/views'), {
             extension: 'ejs'
         }));
         this.app.use(bodyParser());
@@ -52,4 +52,4 @@ class App {
     }
 }
 module.exports = App;
-//# sourceMappingURL=app.js.map
+//# sourceMappingURL=module.js.map
